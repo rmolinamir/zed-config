@@ -2,6 +2,13 @@
 
 This repo contains user-level configuration for the Zed editor. It’s focused on JSON/JSONC formatting with Biome via [Zed Tasks](https://zed.dev/docs/tasks), a VS Code–style keymap baseline, a VS Code inspired theme, and a few productivity-focused defaults.
 
+## Init (New Zed Install)
+
+1. Back up any existing `~/.config/zed` directory.
+2. Clone this repo into `~/.config/zed` so the files sit at the root.
+3. Run `pnpm install` to install the local Biome binary for tasks.
+4. Launch Zed, then restart once to ensure settings and themes reload.
+
 ## What’s here
 
 - `settings.json`: Main Zed settings (editor behavior, language tooling, UI, themes, agent config).
