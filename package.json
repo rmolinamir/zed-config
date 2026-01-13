@@ -1,5 +1,6 @@
 {
   "name": "@rmolinamir/zed-config",
+  "description": "Personalized configurations for the Zed IDE.",
   "version": "0.0.0",
   "private": true,
   "type": "module",
