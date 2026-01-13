@@ -1,0 +1,9 @@
+[
+  {
+    "command": "pnpm --dir \"$HOME/.config/zed\" exec biome check --config-path \"$HOME/.config/zed/biome.json\" --write --unsafe \"$ZED_FILE\"",
+    "hide": "always",
+    "label": "Sort JSON (current file)",
+    "reveal": "never",
+    "use_new_terminal": true,
+  },
+]
