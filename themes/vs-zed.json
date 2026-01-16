@@ -8,9 +8,11 @@
       "name": "Dark (Visual Studio)",
       "style": {
         "accents": [],
-        "background": "#1E1E1E",
+        "background": "#1A1A1A",
         "background.appearance": "opaque",
         "border": "#3C3C3C",
+        "panel.background": "#1A1A1A",
+        "surface.background": "#1A1A1A",
         "drop_target.background": "#383B3D",
         "editor.active_line_number": "#D4D4D4",
 
@@ -33,7 +35,8 @@
         "info.border": "#9CDCFE",
 
         "players": [],
-        "scrollbar.track.background": "#1E1E1E",
+        "tab_bar.background": "#1A1A1A",
+        "scrollbar.track.background": "#1A1A1A",
 
         "syntax": {
           "attribute": { "color": "#9CDCFE" },
@@ -97,7 +100,7 @@
         "text.disabled": "#6D6D6D",
         "text.muted": "#969696",
         "text.placeholder": "#808080",
-        "toolbar.background": "#1E1E1E",
+        "toolbar.background": "#1A1A1A",
 
         "warning": "#D7BA7D",
         "warning.background": "#3B2D00",
