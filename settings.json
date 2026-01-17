@@ -7,6 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent_servers": {
+    "opencode": {
+      "type": "extension",
+      "favorite_models": [
+        "openai/gpt-5.1-codex-max",
+        "openai/gpt-5.1-codex-mini",
+        "openai/gpt-5.2",
+        "openai/gpt-5.2-codex"
+      ],
+      "default_config_options": {},
+      "favorite_config_option_values": {}
+    }
+  },
   "agent": {
     "default_model": {
       "model": "gpt-4o",
