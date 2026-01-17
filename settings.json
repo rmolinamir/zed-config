@@ -102,6 +102,7 @@
     }
   },
   "lsp_document_colors": "background",
+  "minimum_contrast_for_highlights": 70.0,
   "show_edit_predictions": true,
   "sticky_scroll": {
     "enabled": true
