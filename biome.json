@@ -18,7 +18,7 @@
   },
   "json": {
     "formatter": {
-      "trailingCommas": "all"
+      "trailingCommas": "none"
     },
     "parser": {
       "allowComments": true,

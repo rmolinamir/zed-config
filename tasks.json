@@ -4,6 +4,6 @@
     "hide": "always",
     "label": "Sort JSON (current file)",
     "reveal": "never",
-    "use_new_terminal": true,
-  },
+    "use_new_terminal": true
+  }
 ]

@@ -10,48 +10,48 @@
     "bindings": {
       "f1": "command_palette::Toggle",
       "f2": "task::Spawn",
-      "shift shift": "file_finder::Toggle",
+      "shift shift": "file_finder::Toggle"
     },
     "context": "Workspace",
-    "use_key_equivalents": true,
+    "use_key_equivalents": true
   },
   {
     "bindings": {
-      "cmd-shift-h": "search::ToggleReplace",
+      "cmd-shift-h": "search::ToggleReplace"
     },
-    "context": "Pane",
+    "context": "Pane"
   },
   {
     "bindings": {
       "cmd-shift-f": [
         "pane::DeploySearch",
         {
-          "replace_enabled": true,
-        },
-      ],
+          "replace_enabled": true
+        }
+      ]
     },
-    "context": "Workspace",
+    "context": "Workspace"
   },
   {
     "bindings": {
       "cmd-shift-f": [
         "pane::DeploySearch",
         {
-          "replace_enabled": true,
-        },
-      ],
+          "replace_enabled": true
+        }
+      ]
     },
-    "context": "Pane",
+    "context": "Pane"
   },
   {
     "bindings": {
-      "cmd-k": "assistant::InlineAssist",
+      "cmd-k": "assistant::InlineAssist"
     },
-    "context": "!ContextEditor > (Editor && mode == full)",
+    "context": "!ContextEditor > (Editor && mode == full)"
   },
   {
     "bindings": {
-      "cmd-l": "agent::AddSelectionToThread",
-    },
-  },
+      "cmd-l": "agent::AddSelectionToThread"
+    }
+  }
 ]

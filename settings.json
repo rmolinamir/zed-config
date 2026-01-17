@@ -7,118 +7,118 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "default_model": {
+      "model": "gpt-4o",
+      "provider": "openai"
+    },
+    "inline_assistant_model": {
+      "model": "gpt-5-mini",
+      "provider": "openai"
+    },
+    "model_parameters": []
+  },
   "agent_servers": {
     "opencode": {
-      "type": "extension",
+      "default_config_options": {},
+      "favorite_config_option_values": {},
       "favorite_models": [
         "openai/gpt-5.1-codex-max",
         "openai/gpt-5.1-codex-mini",
         "openai/gpt-5.2",
         "openai/gpt-5.2-codex"
       ],
-      "default_config_options": {},
-      "favorite_config_option_values": {}
+      "type": "extension"
     }
-  },
-  "agent": {
-    "default_model": {
-      "model": "gpt-4o",
-      "provider": "openai",
-    },
-    "inline_assistant_model": {
-      "model": "gpt-5-mini",
-      "provider": "openai",
-    },
-    "model_parameters": [],
   },
   "base_keymap": "VSCode",
   "buffer_font_size": 15.0,
   "colorize_brackets": true,
   "features": {
-    "edit_prediction_provider": "zed",
+    "edit_prediction_provider": "zed"
   },
   "icon_theme": "Material Icon Theme",
   "indent_guides": {
     "background_coloring": "disabled",
-    "coloring": "indent_aware",
+    "coloring": "indent_aware"
   },
   "languages": {
     "JavaScript": {
       "code_actions_on_format": {
-        "source.fixAll.biome": true,
+        "source.fixAll.biome": true
       },
       "formatter": [
         {
           "language_server": {
-            "name": "biome",
-          },
-        },
-      ],
+            "name": "biome"
+          }
+        }
+      ]
     },
     // `tsconfig.json` files are treated as JSONC. See: https://github.com/helix-editor/helix/pull/12031
     "JSONC": {
       "code_actions_on_format": {
-        "source.fixAll.biome": true,
+        "source.fixAll.biome": true
       },
       "formatter": [
         {
           "language_server": {
-            "name": "biome",
-          },
-        },
-      ],
+            "name": "biome"
+          }
+        }
+      ]
     },
     "TSX": {
       "code_actions_on_format": {
-        "source.fixAll.biome": true,
+        "source.fixAll.biome": true
       },
       "formatter": [
         {
           "language_server": {
-            "name": "biome",
-          },
-        },
-      ],
+            "name": "biome"
+          }
+        }
+      ]
     },
     "TypeScript": {
       "code_actions_on_format": {
-        "source.fixAll.biome": true,
+        "source.fixAll.biome": true
       },
       "formatter": [
         {
           "language_server": {
-            "name": "biome",
-          },
-        },
+            "name": "biome"
+          }
+        }
       ],
-      "language_servers": ["tsgo", "vtsls"],
-    },
+      "language_servers": ["tsgo", "vtsls"]
+    }
   },
   "lsp": {
     "biome": {
       "settings": {
-        "require_config_file": true,
-      },
-    },
+        "require_config_file": true
+      }
+    }
   },
   "lsp_document_colors": "background",
   "show_edit_predictions": true,
   "sticky_scroll": {
-    "enabled": true,
+    "enabled": true
   },
   "tab_size": 2,
   "tasks": {
-    "prefer_lsp": true,
+    "prefer_lsp": true
   },
   "terminal": {
     "env": {},
     "font_family": "MesloLGS NF",
-    "font_size": 14.0,
+    "font_size": 14.0
   },
   "theme": {
     "dark": "Dark (Visual Studio)",
     "light": "One Light",
-    "mode": "dark",
+    "mode": "dark"
   },
-  "ui_font_size": 16,
+  "ui_font_size": 16
 }
