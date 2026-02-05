@@ -25,7 +25,6 @@
       "favorite_models": [
         "openai/gpt-5.1-codex-max",
         "openai/gpt-5.1-codex-mini",
-        "openai/gpt-5.2",
         "openai/gpt-5.2-codex"
       ],
       "type": "extension"
@@ -34,8 +33,8 @@
   "base_keymap": "VSCode",
   "buffer_font_size": 15.0,
   "colorize_brackets": true,
-  "features": {
-    "edit_prediction_provider": "zed"
+  "git_panel": {
+    "tree_view": true
   },
   "icon_theme": "Material Icon Theme",
   "indent_guides": {
@@ -43,6 +42,12 @@
     "coloring": "indent_aware"
   },
   "languages": {
+    "CSS": {
+      "language_servers": [
+        "tailwindcss-intellisense-css",
+        "!vscode-css-language-server"
+      ]
+    },
     "JavaScript": {
       "code_actions_on_format": {
         "source.fixAll.biome": true
@@ -99,9 +104,20 @@
       "settings": {
         "require_config_file": true
       }
+    },
+    "tailwindcss-language-server": {
+      "settings": {
+        "classFunctions": ["cva", "cx"],
+        "experimental": {
+          "classRegex": ["[cls|className]\\s\\:\\=\\s\"([^\"]*)"]
+        }
+      }
     }
   },
   "lsp_document_colors": "background",
+  "minimap": {
+    "show": "auto"
+  },
   "minimum_contrast_for_highlights": 70.0,
   "show_edit_predictions": true,
   "sticky_scroll": {
