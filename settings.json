@@ -21,11 +21,14 @@
   "agent_servers": {
     "opencode": {
       "default_config_options": {},
+      "default_model": "openai/gpt-5.2-codex",
       "favorite_config_option_values": {},
       "favorite_models": [
-        "openai/gpt-5.1-codex-max",
-        "openai/gpt-5.1-codex-mini",
-        "openai/gpt-5.2-codex"
+        "openai/gpt-5.2-codex",
+        "openai/gpt-5.2-codex/xhigh",
+        "openai/gpt-5.2-codex/high",
+        "openai/gpt-5.2-codex/medium",
+        "openai/gpt-5.2-codex/low"
       ],
       "type": "extension"
     }
@@ -38,14 +41,15 @@
   },
   "icon_theme": "Material Icon Theme",
   "indent_guides": {
-    "background_coloring": "disabled",
+    "background_coloring": "indent_aware",
     "coloring": "indent_aware"
   },
   "languages": {
     "CSS": {
       "language_servers": [
+        "!vscode-css-language-server",
         "tailwindcss-intellisense-css",
-        "!vscode-css-language-server"
+        "..."
       ]
     },
     "JavaScript": {
@@ -58,6 +62,12 @@
             "name": "biome"
           }
         }
+      ],
+      "language_servers": [
+        "!tsgo",
+        "!typescript-language-server",
+        "vtsls",
+        "..."
       ]
     },
     // `tsconfig.json` files are treated as JSONC. See: https://github.com/helix-editor/helix/pull/12031
@@ -83,6 +93,12 @@
             "name": "biome"
           }
         }
+      ],
+      "language_servers": [
+        "!tsgo",
+        "!typescript-language-server",
+        "vtsls",
+        "..."
       ]
     },
     "TypeScript": {
@@ -96,7 +112,12 @@
           }
         }
       ],
-      "language_servers": ["tsgo", "vtsls"]
+      "language_servers": [
+        "!tsgo",
+        "!typescript-language-server",
+        "vtsls",
+        "..."
+      ]
     }
   },
   "lsp": {
@@ -110,6 +131,21 @@
         "classFunctions": ["cva", "cx"],
         "experimental": {
           "classRegex": ["[cls|className]\\s\\:\\=\\s\"([^\"]*)"]
+        }
+      }
+    },
+    "vtsls": {
+      "enable_lsp_tasks": true,
+      "settings": {
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
         }
       }
     }

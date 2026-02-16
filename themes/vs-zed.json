@@ -232,7 +232,7 @@
         "terminal.foreground": "#FFFFFFCC",
         "text": "#D8DEE9FF",
         // Text
-        "text.accent": "#FFFFFFFF",
+        "text.accent": "#AAA0FAFF",
         "text.disabled": "#505050FF",
         "text.muted": "#CCCCCC99",
         "text.placeholder": "#FFFFFF99",
