@@ -24,11 +24,11 @@
       "default_model": "openai/gpt-5.2-codex",
       "favorite_config_option_values": {},
       "favorite_models": [
-        "openai/gpt-5.2-codex",
-        "openai/gpt-5.2-codex/xhigh",
-        "openai/gpt-5.2-codex/high",
-        "openai/gpt-5.2-codex/medium",
-        "openai/gpt-5.2-codex/low"
+        "openai/gpt-5.3-codex",
+        "openai/gpt-5.3-codex/xhigh",
+        "openai/gpt-5.3-codex/high",
+        "openai/gpt-5.3-codex/low",
+        "openai/gpt-5.3-codex/medium"
       ],
       "type": "extension"
     }
@@ -38,6 +38,35 @@
   "colorize_brackets": true,
   "git_panel": {
     "tree_view": true
+  },
+  "global_lsp_settings": {
+    "semantic_token_rules": [
+      {
+        "style": ["type"],
+        "token_type": "class"
+      },
+      {
+        "style": ["type"],
+        "token_type": "interface"
+      },
+      {
+        "style": ["type"],
+        "token_type": "enum"
+      },
+      {
+        "style": ["type"],
+        "token_type": "typeParameter"
+      },
+      {
+        "style": ["function"],
+        "token_type": "function"
+      },
+      {
+        "style": ["keyword"],
+        "token_modifiers": ["declaration"],
+        "token_type": "keyword"
+      }
+    ]
   },
   "icon_theme": "Material Icon Theme",
   "indent_guides": {
@@ -155,6 +184,7 @@
     "show": "auto"
   },
   "minimum_contrast_for_highlights": 70.0,
+  "semantic_tokens": "combined",
   "show_edit_predictions": true,
   "sticky_scroll": {
     "enabled": true
@@ -169,7 +199,7 @@
     "font_size": 14.0
   },
   "theme": {
-    "dark": "Dark (Visual Studio)",
+    "dark": "Curzed (Dark)",
     "light": "One Light",
     "mode": "dark"
   },

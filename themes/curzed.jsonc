@@ -1,11 +1,11 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "author": "rmolinamir",
-  "name": "VSZed",
+  "name": "Curzed",
   "themes": [
     {
       "appearance": "dark",
-      "name": "Dark (Visual Studio)",
+      "name": "Curzed (Dark)",
       "style": {
         "accents": [
           "#FFFFFFFF",
@@ -191,7 +191,6 @@
           "tag": { "color": "#569CD6" },
 
           "text.literal": { "color": "#CE9178" },
-
           "type": { "color": "#4EC9B0" },
 
           "variable": { "color": "#9CDCFE" },
