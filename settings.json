@@ -53,6 +53,7 @@
     "provider": "ollama"
   },
   "git_panel": {
+    "diff_stats": true,
     "tree_view": true
   },
   "global_lsp_settings": {

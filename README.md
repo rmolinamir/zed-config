@@ -17,27 +17,14 @@ This repo contains user-level configuration for the Zed editor. It’s focused o
 - `biome.json`: Biome formatter/linter configuration used by tasks and LSP.
 - `package.json` + `pnpm-lock.yaml`: Pin Biome tooling via pnpm.
 
-## Implemented features
-
-### Agent + assistant
-- Default agent model set to `gpt-4o` with the OpenAI provider.
-- Inline assistant model set to `gpt-5-mini` with the OpenAI provider.
-- No custom model parameters configured yet.
-
 ### Editor + UI + Theme
 - Base keymap: **VSCode**.
 - Fonts: UI font size 16; buffer font size 14.
-- Theme: Dark mode with “Dark (Visual Studio)” and light fallback “One Light”.
-- Bracket colorization enabled; indent guides are indent-aware with background coloring disabled.
-- Sticky scroll enabled.
-- Document color previews shown as **background**.
-- Edit predictions enabled using Zed’s built-in provider.
 - Tab size set to 2.
 
 ### Language tooling
 - Biome is the formatter for JavaScript, TypeScript, TSX, and JSONC.
 - On format, Biome fixes are applied via `source.fixAll.biome` for those languages.
-- TypeScript uses `tsgo` and `vtsls` language servers.
 - Biome LSP requires a config file (ensures repo-level config is honored).
 
 ### Tasks
