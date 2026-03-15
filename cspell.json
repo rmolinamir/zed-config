@@ -1,4 +1,5 @@
 {
+  "userWords": ["ollama", "qwen"],
   "words": [
     "Curzed",
     "Meslo",
@@ -8,9 +9,5 @@
     "keymap",
     "rmolinamir",
     "xhigh"
-  ],
-  "userWords": [
-    "ollama",
-    "qwen"
   ]
 }
