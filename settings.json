@@ -9,9 +9,16 @@
 {
   "agent": {
     "default_model": {
-      "model": "gpt-4o",
+      "model": "gpt-5.3-codex",
       "provider": "openai"
     },
+    "favorite_models": [
+      {
+        "enable_thinking": false,
+        "model": "gpt-5.3-codex",
+        "provider": "openai"
+      }
+    ],
     "inline_assistant_model": {
       "model": "gpt-5-mini",
       "provider": "openai"
@@ -21,21 +28,30 @@
   "agent_servers": {
     "opencode": {
       "default_config_options": {},
-      "default_model": "openai/gpt-5.2-codex",
+      "default_model": "openai/gpt-5.3-codex",
       "favorite_config_option_values": {},
       "favorite_models": [
         "openai/gpt-5.3-codex",
         "openai/gpt-5.3-codex/xhigh",
         "openai/gpt-5.3-codex/high",
-        "openai/gpt-5.3-codex/low",
-        "openai/gpt-5.3-codex/medium"
+        "openai/gpt-5.3-codex/medium",
+        "openai/gpt-5.3-codex/low"
       ],
-      "type": "extension"
+      "type": "registry"
     }
   },
   "base_keymap": "VSCode",
   "buffer_font_size": 15.0,
   "colorize_brackets": true,
+  "edit_predictions": {
+    "mode": "eager",
+    "ollama": {
+      "max_output_tokens": 64,
+      "model": "qwen2.5-coder:7b",
+      "prompt_format": "infer"
+    },
+    "provider": "ollama"
+  },
   "git_panel": {
     "tree_view": true
   },

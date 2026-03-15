@@ -6,6 +6,11 @@
     "tsgo",
     "opencode",
     "keymap",
-    "rmolinamir"
+    "rmolinamir",
+    "xhigh"
+  ],
+  "userWords": [
+    "ollama",
+    "qwen"
   ]
 }
