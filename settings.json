@@ -217,7 +217,7 @@
   },
   "theme": {
     "dark": "Curzed (Dark)",
-    "light": "One Light",
+    "light": "Curzed (Light)",
     "mode": "dark"
   },
   "ui_font_size": 16
