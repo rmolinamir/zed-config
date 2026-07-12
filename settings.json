@@ -30,9 +30,12 @@
   "buffer_font_size": 15.0,
   "cli_default_open_behavior": "new_window",
   "collaboration_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "colorize_brackets": true,
+  "debugger": {
+    "dock": "left"
+  },
   "diff_view_style": "split",
   "edit_predictions": {
     "mode": "eager",
@@ -213,6 +216,7 @@
     "prefer_lsp": true
   },
   "terminal": {
+    "dock": "bottom",
     "env": {},
     "font_family": "MesloLGS NF",
     "font_size": 14.0
