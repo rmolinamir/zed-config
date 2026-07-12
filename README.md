@@ -1,4 +1,4 @@
-# Zed Config
+# dotzed
 
 This repo contains user-level configuration for the Zed editor. It’s focused on JSON/JSONC formatting with Biome via [Zed Tasks](https://zed.dev/docs/tasks), a VS Code–style keymap baseline, a VS Code inspired theme, and a few productivity-focused defaults.
 
