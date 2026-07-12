@@ -9,13 +9,14 @@
 {
   "agent": {
     "default_model": {
-      "model": "gpt-5.3-codex",
+      "model": "gpt-5.2-codex",
       "provider": "openai"
     },
+    "dock": "right",
     "favorite_models": [
       {
         "enable_thinking": false,
-        "model": "gpt-5.3-codex",
+        "model": "gpt-5.2-codex",
         "provider": "openai"
       }
     ],
@@ -23,26 +24,36 @@
       "model": "gpt-5-mini",
       "provider": "openai"
     },
-    "model_parameters": []
+    "model_parameters": [],
+    "sidebar_side": "right"
   },
   "agent_servers": {
     "opencode": {
-      "default_config_options": {},
-      "default_model": "openai/gpt-5.3-codex",
-      "favorite_config_option_values": {},
-      "favorite_models": [
-        "openai/gpt-5.3-codex",
-        "openai/gpt-5.3-codex/xhigh",
-        "openai/gpt-5.3-codex/high",
-        "openai/gpt-5.3-codex/medium",
-        "openai/gpt-5.3-codex/low"
-      ],
+      "default_config_options": {
+        "effort": "medium",
+        "mode": "build",
+        "model": "openai/gpt-5.2-codex"
+      },
+      "favorite_config_option_values": {
+        "model": [
+          "openai/gpt-5.2-codex/medium",
+          "openai/gpt-5.2-codex/xhigh",
+          "openai/gpt-5.2-codex/high",
+          "openai/gpt-5.2-codex/low",
+          "openai/gpt-5.2-codex"
+        ]
+      },
       "type": "registry"
     }
   },
   "base_keymap": "VSCode",
   "buffer_font_size": 15.0,
+  "cli_default_open_behavior": "new_window",
+  "collaboration_panel": {
+    "dock": "right"
+  },
   "colorize_brackets": true,
+  "diff_view_style": "split",
   "edit_predictions": {
     "mode": "eager",
     "ollama": {
@@ -50,10 +61,11 @@
       "model": "qwen2.5-coder:7b",
       "prompt_format": "infer"
     },
-    "provider": "ollama"
+    "provider": "copilot"
   },
   "git_panel": {
     "diff_stats": true,
+    "dock": "left",
     "tree_view": true
   },
   "global_lsp_settings": {
@@ -85,7 +97,11 @@
       }
     ]
   },
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": {
+    "dark": "Material Icon Theme",
+    "light": "Material Icon Theme",
+    "mode": "dark"
+  },
   "indent_guides": {
     "background_coloring": "indent_aware",
     "coloring": "indent_aware"
@@ -111,8 +127,8 @@
       ],
       "language_servers": [
         "!tsgo",
-        "!typescript-language-server",
         "vtsls",
+        "!typescript-language-server",
         "..."
       ]
     },
@@ -142,8 +158,8 @@
       ],
       "language_servers": [
         "!tsgo",
-        "!typescript-language-server",
         "vtsls",
+        "!typescript-language-server",
         "..."
       ]
     },
@@ -160,8 +176,8 @@
       ],
       "language_servers": [
         "!tsgo",
-        "!typescript-language-server",
         "vtsls",
+        "!typescript-language-server",
         "..."
       ]
     }
@@ -201,6 +217,12 @@
     "show": "auto"
   },
   "minimum_contrast_for_highlights": 70.0,
+  "outline_panel": {
+    "dock": "left"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
   "semantic_tokens": "combined",
   "show_edit_predictions": true,
   "sticky_scroll": {
