@@ -1,9 +1,5 @@
 {
-  "userWords": [
-    "ollama",
-    "qwen",
-    "preproc"
-  ],
+  "userWords": ["ollama", "qwen", "preproc"],
   "words": [
     "Curzed",
     "Meslo",
